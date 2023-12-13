@@ -1,7 +1,11 @@
 import React from 'react'
 import { WhyYardWrapper } from './whyYardStyles';
-// import video from
+// import video from "/Yard Video Pst. Ose.mov";
 const WhyYard = () => {
+const videoUrl = "/Yard Video Pst. Ose.mov?url";
+const thumbnailUrl = "/assets/Other images/Hover.png"
+
+
   return (
     <WhyYardWrapper>
       <h2>
@@ -17,8 +21,16 @@ const WhyYard = () => {
         world around them.
       </p>
       <div className="video">
-        <h1>video</h1>
-        {/* <video src="/videos/WhyYardVideo.mp4" autoPlay loop muted /> */}
+        {/* <h1>video</h1> */}
+        <video
+          src={videoUrl}
+          loop
+          // autoPlay
+          // muted
+          type="video/mp4"
+          controls
+          poster={thumbnailUrl}
+        />
       </div>
     </WhyYardWrapper>
   );

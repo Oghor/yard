@@ -16,7 +16,7 @@ export const WhyYardWrapper = styled.section`
   .video {
     width: 100%;
     height: 515px;
-    background-color: plum;
+    /* background-color: plum; */
     margin-top: 10%;
     z-index: 4;
     position: relative;
