@@ -50,7 +50,7 @@ export const WhyYardWrapper = styled.section`
   }
   @media screen and (max-width: 500px) {
     background-size: contain;
-    margin-top: -10px;
+    margin-top: -120px;
     padding: 172px 4% 32px;
     .video {
       height: 322px;

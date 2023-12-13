@@ -16,7 +16,7 @@ export const Bannerwrapper = styled.section`
     padding: 58px 48px 70px;
   }
   @media screen and (max-width: 500px) {
-    padding: 58px 10px 70px;
+    padding: 58px 10px 20px;
   }
 `;
 
