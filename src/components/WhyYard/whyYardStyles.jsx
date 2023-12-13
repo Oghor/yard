@@ -21,6 +21,10 @@ export const WhyYardWrapper = styled.section`
     z-index: 4;
     position: relative;
     /* margin-bottom: -256px; */
+
+    video{
+      width: 100%;
+    }
   }
   h2 {
     font-size: 28px;
