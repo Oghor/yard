@@ -1,7 +1,13 @@
-
+import Hero from './components/Hero/Hero';
+import Speakers from './components/Speakers/Speakers';
+import Tshirt from './components/TshirtFooter/TshirtFooter';
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+    <>
+      <Hero/>
+      <Speakers/>
+      <Tshirt/>
+    </>
   );
 }
 
