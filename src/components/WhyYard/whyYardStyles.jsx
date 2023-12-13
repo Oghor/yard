@@ -24,6 +24,7 @@ export const WhyYardWrapper = styled.section`
 
     video{
       width: 100%;
+      height: 100%;
     }
   }
   h2 {

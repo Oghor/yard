@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Headerwrapper = styled.header`
+
   display: flex;
   justify-content: space-between;
   padding: 3.7% 5% 23px;
@@ -42,11 +43,12 @@ export const Headerwrapper = styled.header`
     }
 
     .socials {
+      z-index: 1000;
       position: fixed;
-      top: -100vh;
+      top: 0;      
+      right: -100vw;
       background-color: white;
       padding: 0;
-      left: 0;
       height: 100%;
       width: 100%;
       display: flex;
@@ -58,7 +60,7 @@ export const Headerwrapper = styled.header`
     }
 
     .responsive_nav {
-      transform: translateY(100vh);
+      transform: translateX(-100vw);
     }
 
     .nav-close-btn {

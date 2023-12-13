@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useRef } from "react";
 import { WhyYardWrapper } from './whyYardStyles';
 // import video from "/Yard Video Pst. Ose.mov";
 const WhyYard = () => {
 const videoUrl = "/Yard Video Pst. Ose.mov?url";
 const thumbnailUrl = "/assets/Other images/Hover.png"
+const videoRef = useRef(null);
 
+const handleVideoClick = () => {
+  const video = videoRef.current;
+
+  if (video.paused) {
+    video.play();
+  } else {
+    video.pause();
+  }
+};
 
   return (
     <WhyYardWrapper>
@@ -21,8 +31,8 @@ const thumbnailUrl = "/assets/Other images/Hover.png"
         world around them.
       </p>
       <div className="video">
-        {/* <h1>video</h1> */}
         <video
+          ref={videoRef}
           src={videoUrl}
           loop
           // autoPlay
@@ -30,6 +40,7 @@ const thumbnailUrl = "/assets/Other images/Hover.png"
           type="video/mp4"
           controls
           poster={thumbnailUrl}
+          onClick={handleVideoClick}
         />
       </div>
     </WhyYardWrapper>
