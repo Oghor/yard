@@ -390,12 +390,19 @@ Error generating stack: `+i.message+`
   }
 `,Xm="/assets/Speakers/Rectangle 59.png",Zm="/assets/Speakers/Rectangle 60.png",Jm="/assets/Speakers/Rectangle 61.png",qm=()=>j(Km,{className:"flexColCenter",children:[j("h2",{children:["Meet Our ",P("span",{className:"orangeText",children:"Speakers"})]}),j(Gm,{children:[j(Yi,{children:[P("img",{src:Jm,alt:"pstOse"}),P("h4",{className:"orangeText",children:"Pst. Ose Imiemohon"}),P("h5",{children:"Lead pastor, The Brook Church global"}),P("p",{children:"Pastor Ose Imiemohon is the founder and Lead Pastor of The Brook Church. He is a dynamic..."}),P(fr,{text:"Read more",classNme:"button-full"})]}),j(Yi,{children:[P("img",{src:Zm,alt:"ayobami"}),P("h4",{className:"orangeText",children:"Ayobami Akindipe"}),P("h5",{children:"CEO, ACE Real Estate Nig."}),P("p",{children:"Pastor Ose Imiemohon is the founder and Lead Pastor of The Brook Church. He is a dynamic..."}),P(fr,{text:"Read more",classNme:"button-full"})]}),j(Yi,{children:[P("img",{src:Xm,alt:"chinenye"}),P("h4",{className:"orangeText",children:"Veralyn Chinenye"}),P("h5",{children:"Business Growth Specialist"}),P("p",{children:"Pastor Ose Imiemohon is the founder and Lead Pastor of The Brook Church. He is a dynamic..."}),P(fr,{text:"Read more",classNme:"button-full"})]})]})]}),bm=me.main`
   background-image: url("/assets/Other images/Rectangle 57.svg");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #171717;
+  padding-top: 50px;
   color: #f8f8f8;
   font-size: 28px;
-  padding: 84px 34px 35px;
+
+  .footer {
+    background-color: #171717;
+    padding: 34px 34px 35px;
+  }
+  @media screen and (min-width: 800px) {
+    background-color: #171717;
+  }
 `,e0=me.div`
   display: flex;
   justify-content: center;
@@ -447,4 +454,4 @@ Error generating stack: `+i.message+`
       margin-top: 20px;
     }
   }
-`,va="/assets/Other images/Branded T-shirts.png",n0="/assets/Other images/tshirt.png",r0="/assets/Social media logos/facebook2.svg",o0="/assets/Social media logos/insta.svg",i0="/assets/Social media logos/twitter.svg",l0=()=>j(bm,{className:"flexColCenter",children:[j("span",{children:["Our ",P("span",{className:"orangeText",children:"Branded "}),"Tshirt"]}),j(e0,{children:[P("img",{src:va,alt:"branded t-shirt"}),P("img",{src:n0,alt:"branded t-shirt"}),P("img",{src:va,alt:"branded t-shirt"})]}),P(fr,{text:"ORDER NOW",classNme:"button-full"}),j(t0,{children:[j("div",{className:"flexCenter socials",children:[P("img",{src:r0,alt:"facebook"}),P("img",{src:o0,alt:"instagram"}),P("img",{src:i0,alt:"twitter"})]}),P("p",{children:"© 2023 TheYardGlobal. All rights reserved"})]})]});function u0(){return j(za,{children:[P(Ym,{}),P(qm,{}),P(l0,{})]})}Ki.createRoot(document.getElementById("root")).render(P(En.StrictMode,{children:P(u0,{})}));
+`,va="/assets/Other images/Branded T-shirts.png",n0="/assets/Other images/tshirt.png",r0="/assets/Social media logos/facebook2.svg",o0="/assets/Social media logos/insta.svg",i0="/assets/Social media logos/twitter.svg",l0=()=>P(bm,{children:j("div",{className:"footer flexColCenter",children:[j("span",{children:["Our ",P("span",{className:"orangeText",children:"Branded "}),"Tshirt"]}),j(e0,{children:[P("img",{src:va,alt:"branded t-shirt"}),P("img",{src:n0,alt:"branded t-shirt"}),P("img",{src:va,alt:"branded t-shirt"})]}),P(fr,{text:"ORDER NOW",classNme:"button-full"}),j(t0,{children:[j("div",{className:"flexCenter socials",children:[P("img",{src:r0,alt:"facebook"}),P("img",{src:o0,alt:"instagram"}),P("img",{src:i0,alt:"twitter"})]}),P("p",{children:"© 2023 TheYardGlobal. All rights reserved"})]})]})});function u0(){return j(za,{children:[P(Ym,{}),P(qm,{}),P(l0,{})]})}Ki.createRoot(document.getElementById("root")).render(P(En.StrictMode,{children:P(u0,{})}));
