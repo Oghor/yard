@@ -4,7 +4,7 @@ export const Headerwrapper = styled.header`
 
   display: flex;
   justify-content: space-between;
-  padding: 3.7% 5% 23px;
+  padding: 23px 3.7% 23px;
   /* position: relative; */
   .logo-wrapper {
     column-gap: 12px;
@@ -34,7 +34,7 @@ export const Headerwrapper = styled.header`
   }
 
   @media screen and (max-width: 650px) {
-    padding: 29px 24px 20px;
+    padding: 20px 24px 20px;
     .logo-text {
       display: none;
     }

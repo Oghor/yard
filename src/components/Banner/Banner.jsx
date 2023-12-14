@@ -14,16 +14,22 @@ const Banner = () => {
             <span>Effec</span>
             <span className="orangeText">tive</span>
           </header>
-          <p className='text'>
+          <p className="text">
             Get ready for an inspiring day filled with quality speakers,
             engaging panel sessions, uplifting music, and captivating spoken
             word poetry.
           </p>
-          <Button text="REGISTER NOW"/>
+          <a
+            href="https://bit.ly/3QUbVyI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button text="REGISTER NOW" />
+          </a>
         </BannerText>
         <Img>
-            <img src={Poster} alt="Event Poster"/>
-        </Img>       
+          <img src={Poster} alt="Event Poster" />
+        </Img>
       </BannerSection>
     </Bannerwrapper>
   );

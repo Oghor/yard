@@ -4,25 +4,22 @@ export const WhyYardWrapper = styled.section`
   background-image: url("/assets/Other images/Rectangle 57.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* background-position: top; */
+
   overflow: visible;
   margin-top: -200px;
   height: 100% 90%;
   padding: 286px 20% 25px;
   text-align: Center;
   color: #171717;
-  /* background-color: #171717; */
 
   .video {
     width: 100%;
     height: 515px;
-    /* background-color: plum; */
     margin-top: 10%;
     z-index: 4;
     position: relative;
-    /* margin-bottom: -256px; */
 
-    video{
+    video {
       width: 100%;
       height: 100%;
     }
@@ -35,6 +32,7 @@ export const WhyYardWrapper = styled.section`
     font-size: 18px;
     font-weight: 500;
     padding-top: 28px;
+    text-align: justify;
   }
 
   section {

@@ -23,7 +23,7 @@ export const Tshirts = styled.div`
   justify-content: center;
   column-gap: 20px;
   /* height:  */
-  margin: 38px 0 150px;
+  margin: 38px 0 100px;
 
   img {
     width: 25%;
@@ -42,7 +42,7 @@ export const Tshirts = styled.div`
     }
   }
   @media screen and (max-width: 600px) {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     img {
       width: 100%;
     }
@@ -53,7 +53,7 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 200px 5% 0;
+  margin: 150px 5% 0;
   width: 100%;
   .socials {
     column-gap: 30px;
@@ -65,7 +65,7 @@ export const Footer = styled.footer`
     line-height: 160%; /* 24px */
   }
   @media screen and (max-width: 600px) {
-    margin-top: 150px;
+    margin-top: 100px;
     flex-direction: column;
     p{
       margin-top: 20px;

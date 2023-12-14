@@ -21,10 +21,34 @@ const Header = () => {
         <img src={logoText} alt="logo text" className="logo-text" />
       </div>
       <div className="flexCenter socials" ref={navRef}>
-        <img src={facebook} alt="facebook" />
-        <img src={instagram} alt="instagram" />
-        <img src={twitter} alt="twitter" />
-        <button className="register-button">Register</button>
+        <a
+          href="https://www.facebook.com/profile.php?id=61553977748034&mibextid=LQQJ4d"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={facebook} alt="facebook" />
+        </a>
+        <a
+          href="https://www.instagram.com/theyardglobal?igshid=OGQ5ZDc2ODk2ZA=="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={instagram} alt="instagram" />
+        </a>
+        <a
+          href="https://x.com/theyardglobal?s=21&t=-yLU_O4X6kjD_QfpBc4aHA"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={twitter} alt="twitter" />
+        </a>
+        <a
+          href="https://bit.ly/3QUbVyI"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="register-button">Register</button>
+        </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <img src={menubtn} alt="menu" />
         </button>

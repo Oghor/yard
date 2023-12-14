@@ -1,8 +1,34 @@
+@font-face {
+  font-family: 'ArticulatCF';
+  src: url('/font/ArticulatCF-ExtraLight.otf') format('.otf'),;
+      /* url('/font/ArticulatCF-BoldOblique.otf') format('.otf'),
+      url('/font/ArticulatCF-DemiBold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'),
+      url('/font/ArticulatCF-Bold.otf') format('.otf'); */
+
+  /* Add similar rules for other fonts */
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'ArticulatCF', sans-serif;
   scroll-behavior: smooth;
 }
 a {

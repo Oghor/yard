@@ -29,11 +29,15 @@ export const Container = styled.main`
       font-weight: 500;
     }
 
+    div:nth-child(2) {
+      text-align: right;
+    }
+
     @media screen and (max-width: 1100px) {
       background-size: 100% 190%;
       margin-top: -160px;
       padding: 288px 10% 50px;
-      
+
       .bg {
         background: #171717;
       }
@@ -49,6 +53,9 @@ export const Container = styled.main`
         width: 100%;
         margin: 20px 0;
         color: #171717;
+      }
+      div:nth-child(2) {
+        text-align: center;
       }
       h2 {
         margin-bottom: 20px;
@@ -78,7 +85,7 @@ const MissionVision = () => {
           </h2>
           <p>Making your dream doable!</p>
         </div>
-        <span className='bg'>Amen </span>
+        {/* <span className='bg'>Amen </span> */}
       </section>
     </Container>
   );

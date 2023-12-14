@@ -16,10 +16,7 @@ export const SpeakerWrapper = styled.header`
   @media screen and (max-width: 900px) {
     background: #f8f8f8;
     padding: 59px 37px 25px;
-    back
-    h2 {
-      color: #171717;
-    }
+    h2 {color: #171717;}
   }
 `;
 
