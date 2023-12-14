@@ -30,9 +30,13 @@ export const Container = styled.main`
     }
 
     @media screen and (max-width: 1100px) {
-      background-size: 100% 100%;
+      background-size: 100% 190%;
       margin-top: -160px;
-      padding: 288px 10% 20px;
+      padding: 288px 10% 50px;
+      
+      .bg {
+        background: #171717;
+      }
     }
     @media screen and (max-width: 800px) {
       background: none;
@@ -46,7 +50,9 @@ export const Container = styled.main`
         margin: 20px 0;
         color: #171717;
       }
-      h2{margin-bottom: 20px;}
+      h2 {
+        margin-bottom: 20px;
+      }
     }
   }
   @media screen and (max-width: 800px) {
@@ -72,6 +78,7 @@ const MissionVision = () => {
           </h2>
           <p>Making your dream doable!</p>
         </div>
+        <span className='bg'>Amen </span>
       </section>
     </Container>
   );

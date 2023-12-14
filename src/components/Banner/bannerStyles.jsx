@@ -9,7 +9,7 @@ export const Bannerwrapper = styled.section`
     top right;
   background-repeat: repeat-y;
   background-color: #181717;
-  background-blend-mode: overlay;
+  background-blend-mode: overlay !important;
   padding: 192px 48px 70px;
 
   @media screen and (max-width: 1100px) {
@@ -68,12 +68,12 @@ export const BannerText = styled.div`
 
 export const Img = styled.div`
   width: 50%;
-  height: 100%;
+  /* height: 100%; */
   z-index: 5;
   position: relative;
   img {
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
   }
   @media screen and (min-width: 1299px) and (max-width: 1300px) {
     img {

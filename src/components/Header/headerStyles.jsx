@@ -33,7 +33,7 @@ export const Headerwrapper = styled.header`
     border: none;
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 650px) {
     padding: 29px 24px 20px;
     .logo-text {
       display: none;
